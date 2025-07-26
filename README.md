@@ -12,7 +12,6 @@
 
 ## 🎥 **Preview**
 ![Demo WakafApp](https://media.giphy.com/media/5xtDarEbyj0nM6gNTDO/giphy.gif)  
-*(Gambar ini hanya contoh animasi — kamu bisa ganti dengan screenshot/gif milikmu.)*
 
 ---
 
