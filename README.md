@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌱 WakafApp
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)
+![Firebase](https://img.shields.io/badge/Firebase-Backend-FFCA28?style=flat-square&logo=firebase)
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 
-First, run the development server:
+> **WakafApp** adalah platform donasi & wakaf berbasis web yang dibangun dengan **Next.js** dan **Tailwind CSS**.  
+> Aplikasi ini dilengkapi dengan landing page untuk pengunjung, login admin, serta dashboard admin sederhana.
 
+---
+
+## 🎥 **Preview**
+![Demo WakafApp](https://media.giphy.com/media/5xtDarEbyj0nM6gNTDO/giphy.gif)  
+*(Gambar ini hanya contoh animasi — kamu bisa ganti dengan screenshot/gif milikmu.)*
+
+---
+
+## ✨ **Fitur Utama**
+- **Landing Page** – Halaman utama untuk pengunjung dengan informasi program wakaf.
+- **Login Admin** – Autentikasi admin sederhana.
+- **Dashboard Admin** – Mengelola data donasi & wakaf.
+- **Desain Responsive** – Tampilan menyesuaikan semua ukuran layar.
+- **Next.js 15 + Tailwind v3** – Modern stack untuk performa optimal.
+
+---
+
+## ⚙️ **Tech Stack**
+- **Frontend:** Next.js 15, React
+- **UI Styling:** Tailwind CSS v3
+- **Backend (Planned):** Firebase + Cloud Functions
+- **Database:** Firebase Firestore (Planned)
+- **Payment Gateway:** Midtrans / Xendit (Planned)
+
+---
+
+## 🚀 **Cara Menjalankan Project**
 ```bash
+# 1. Clone repository
+git clone https://github.com/username/wakafapp.git
+cd wakafapp
+
+# 2. Install dependencies
+npm install
+
+# 3. Jalankan server development
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 4. Build untuk produksi
+npm run build
+npm start
